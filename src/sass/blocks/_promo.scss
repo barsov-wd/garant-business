@@ -1,0 +1,69 @@
+.promo {
+    position: relative;
+    background: linear-gradient(288.72deg, rgba(51, 177, 182, 0.5) 16.77%, rgba(120, 220, 213, 0.35) 108.95%);
+    &__bg {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    &__container {
+        position: relative;
+        padding-top: 149px;
+        padding-bottom: 65px;
+    }
+    &__image {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    &__image-mobile {
+        display: none;
+    }
+    &__title {
+        font-family: 'Rubik Bold', sans-serif;
+        font-weight: 700;
+        width: 683px;
+        font-size: 65px;
+        line-height: 77px;
+        color: #121212;
+        margin-bottom: 20px;
+    }
+    &__subtitle {
+        font-family: 'Uni Neue', sans-serif;
+        font-weight: 700;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-right: 20px;
+        width: 687px;
+        background: linear-gradient(269.58deg, rgba(255, 255, 255, 0.3) 94.98%, rgba(255, 255, 255, 0) 100%);
+        border-radius: 0px 10px 10px 0px;
+        text-transform: uppercase;
+        font-size: 34px;
+        line-height: 47px;
+        color: #121212;
+        margin-bottom: 30px;
+        &--color {
+            color: #ba2830;
+        }
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        &:last-child {
+            margin-bottom: 30px;
+        }
+    }
+    &__item-descr {
+        font-weight: 500;
+        width: 458px;
+        margin-left: 20px;
+        color: #121212;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    &__button {
+        width: 390px;
+        height: 60px;
+    }
+}

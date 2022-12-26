@@ -1,0 +1,36 @@
+.footer {
+    padding-top: 53px;
+    padding-bottom: 47px;
+    background: linear-gradient(288.72deg, rgba(51, 177, 182, 0.5) 16.77%, rgba(120, 220, 213, 0.35) 108.95%);
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        margin-bottom: 29px;
+    }
+    &__text {
+        width: 551px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #121212;
+        margin-bottom: 20px;
+    }
+    &__title {
+        margin-bottom: 30px;
+    }
+    &__address {
+        width: 646px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #121212;
+    }
+    &__button {
+        width: 390px;
+        height: 60px;
+    }
+}

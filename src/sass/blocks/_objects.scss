@@ -1,0 +1,59 @@
+.objects {
+    padding: 130px 0;
+    background: linear-gradient(180deg, rgba(155, 221, 216, 0.4) 0%, rgba(155, 221, 216, 0) 100%);
+    &__title {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    &__item {
+        position: relative;
+        padding-top: 41px;
+        padding-left: 37px;
+        height: 250px;
+        background: linear-gradient(270deg, rgba(118, 213, 207, 0.5) 0%, rgba(61, 180, 169, 0.5) 59.85%);
+        border-radius: 30px 5px;
+        &--one {
+            width: 390px;
+        }
+        &--two {
+            width: 527px;
+        }
+        &--three {
+            width: 253px;
+        }
+        &--four {
+            width: 390px;
+        }
+        &--five {
+            width: 527px;
+        }
+        &--six {
+            width: 390px;
+        }
+        &--seven {
+            width: 390px;
+        }
+        &--eight {
+            width: 253px;
+        }
+    }
+    &__item-title {
+        font-family: 'Rubik Bold', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #121212;
+    }
+    &__item-image {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}

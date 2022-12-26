@@ -1,0 +1,51 @@
+.steps {
+    padding: 130px 0;
+    background: linear-gradient(180deg, rgba(155, 221, 216, 0.4) 0%, rgba(155, 221, 216, 0) 100%);
+    &__title {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    &__items {
+        padding-top: 49px;
+        background: url('../img/steps/steps-bg.png') no-repeat;
+        background-position: top;
+        width: 1388px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__item {
+        width: 294px;
+        text-align: center;
+    }
+    &__item-circle {
+        font-family: 'Rubik Bold', sans-serif;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 124px;
+        height: 124px;
+        background: linear-gradient(270deg, rgba(118, 213, 207, 0.5) 0%, rgba(61, 180, 169, 0.5) 59.85%);
+        border-radius: 100%;
+        margin: 0 auto 30px;
+        color: #BA2830;
+        font-size: 65px;
+        line-height: 77px;
+    }
+    &__item-title {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #121212;
+        margin-bottom: 20px;
+    }
+    &__item-descr {
+        font-family: 'Rubik Regular', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #121212;
+    }
+}
